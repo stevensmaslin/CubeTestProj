@@ -115,7 +115,7 @@ int main(void)
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	  delay *= 1.1;
 	  HAL_Delay((uint16_t)delay);
-	  if(delay > 1000)
+	  if(delay > 2000)
 	  {
 		  delay = 1;
 	  }
